@@ -15,9 +15,9 @@ export class UtilitariosComponent implements OnInit {
     alert('Você clicou no botão');
   }
 
-  cursorsobrebotao(){
-    alert('Para acessar, clique sobre o link');
-  }
+ // cursorsobrebotao(){
+  //  alert('Para acessar, clique sobre o link');
+ // }
 
   constructor() { }
 

@@ -6,9 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { UtilitariosComponent } from './shared/components/utilitarios/utilitarios.component';
-import { ListaMoradorModule } from './lista-morador/lista-morador.module';
-import { ListModule } from './features/moradores/models/list.module';
-import { MoradoresPageComponent } from './moradores-page/moradores-page.component';
+
+import { MoradoresPageComponent } from './features/moradores/components/pages/moradores-page/moradores-page.component';
 import { HomePageComponent } from './features/moradores/components/pages/home-page/home-page.component';
 
 
@@ -24,8 +23,7 @@ import { HomePageComponent } from './features/moradores/components/pages/home-pa
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ListaMoradorModule,
-    ListModule
+    
   ],
   exports: [
     MoradoresPageComponent,
